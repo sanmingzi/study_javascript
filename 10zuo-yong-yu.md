@@ -17,6 +17,6 @@ function add(num1, num2)
 var str = "hello";
 function test_func()
 {
-  console.log(str);
+  console.log(str); // str是全局变量，可以在函数内部使用
 }
 ```
