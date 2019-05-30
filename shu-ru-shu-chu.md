@@ -4,3 +4,22 @@
 
 ## 输出
 
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>我的第一个页面</h1>
+<p id="demo">我的第一个段落。</p>
+
+<script>
+  document.write(Date());
+  window.alert(3);
+  //error: document.getElementById("demo").innerHTML();
+  document.getElementById("demo").innerHTML = "第一个段落已经被innerHTML修改"
+  console.log("现在时间是: " + Date());
+</script>
+
+</body>
+</html>
+```
