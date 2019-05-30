@@ -15,7 +15,6 @@
 <script>
   document.write(Date());
   window.alert(3);
-  //error: document.getElementById("demo").innerHTML();
   document.getElementById("demo").innerHTML = "第一个段落已经被innerHTML修改"
   console.log("现在时间是: " + Date());
 </script>
