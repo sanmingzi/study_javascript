@@ -15,6 +15,4 @@ function alert_hello()
 
 - 函数返回值
 
-
-
 ## 函数调用
