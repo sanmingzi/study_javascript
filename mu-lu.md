@@ -11,12 +11,13 @@
     - innerHTML
     - console.log
 - 数据类型
-- [常量-变量](chang-liang-bian-liang.md)
     - 整型/浮点型
     - 字符串
     - 数组
     - map
     - 自定义数据类型
+- [常量-变量](chang-liang-bian-liang.md)
+    
     - 变量的作用域
 - 运算
     - 加减乘除
