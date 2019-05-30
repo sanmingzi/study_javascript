@@ -4,3 +4,6 @@
 
 ## 变量
 
+```
+var name = "sanmingiz";
+```
