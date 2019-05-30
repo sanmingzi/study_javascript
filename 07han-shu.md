@@ -2,6 +2,8 @@
 
 ## 函数定义
 
+- 无参函数
+
 ```
 function alert_hello()
 {
