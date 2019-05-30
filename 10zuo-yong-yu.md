@@ -19,3 +19,6 @@ function test_func()
   console.log(str); // str是全局变量，可以在函数内部使用
 }
 ```
+
+```
+```
