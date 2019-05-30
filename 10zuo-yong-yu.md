@@ -5,6 +5,7 @@
 函数内部声明的变量只能在函数内部使用
 
 ```
+// 函数外部不能使用变量rtn
 function add(num1, num2)
 {
   rtn = num1 + num2;
