@@ -5,7 +5,7 @@
 ## 字符串
 
 ```
-var name = "sanmingzi";
+var name = "sanmingzi \"sss\".";
 var char = name[0];
 var length = name.length;
 ```
