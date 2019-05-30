@@ -10,6 +10,7 @@
     - document.write
     - innerHTML
     - console.log
+- 数据类型
 - [常量-变量](chang-liang-bian-liang.md)
     - 整型/浮点型
     - 字符串
