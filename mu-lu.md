@@ -5,7 +5,7 @@
 - 注释
     - //
     - `/*...*/`
-- 输入/输出
+- [输入-输出](shu-ru-shu-chu.md)
     - windows.alert
     - document.write
     - innerHTML
