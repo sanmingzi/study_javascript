@@ -4,7 +4,7 @@
 
 - 注释
     - //
-    - /\* \*/
+    - /\* ... */
 - 输入/输出
     - windows.alert
     - document.write
