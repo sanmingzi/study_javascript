@@ -4,6 +4,11 @@
 
 ## 字符串
 
+```
+var name = "sanmingzi";
+var length = name.length;
+```
+
 ## symbol
 
 ## 数组
