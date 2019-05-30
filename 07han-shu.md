@@ -32,4 +32,21 @@ function add(var1, var2)
 ## 函数调用
 
 ```
+<!DOCTYPE html>
+<html>
+<body>
+
+<button id="demo" onclick="add(1, 2)">点我</button>
+
+<script>
+  function add(num1, num2)
+  {
+      alert(num1 + " + " + num2 + " = " + (num1 + num2));
+      return num1 + num2;
+  }
+</script>
+
+</body>
+</html>
+
 ```
