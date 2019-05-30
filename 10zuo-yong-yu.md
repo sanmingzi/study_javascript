@@ -20,6 +20,8 @@ function test_func()
 }
 ```
 
+下面这种写法容易引起误会，建议不要使用。
+
 ```
 <!DOCTYPE html>
 <html>
