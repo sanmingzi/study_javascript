@@ -12,7 +12,7 @@
 var cars=["Saab","Volvo","BMW"];
 ```
 
-## map
+## 对象
 
 ```
 var person={firstname:"John", lastname:"Doe", id:5566};
