@@ -6,6 +6,7 @@
 
 ```
 var name = "sanmingzi";
+var char = name[0];
 var length = name.length;
 ```
 
