@@ -5,7 +5,7 @@
 ## 字符串
 
 ```
-var name = "sanmingzi \"sss\"."; // '\'
+var name = "sanmingzi \"sss\"."; // 使用'\'来转义一些特殊字符
 var char = name[0];
 var length = name.length;
 ```
