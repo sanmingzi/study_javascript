@@ -8,7 +8,9 @@
 
 ## 数组
 
+```
 var cars=["Saab","Volvo","BMW"];
+```
 
 ## map
 
