@@ -4,3 +4,10 @@
 
 函数内部声明的变量只能在函数内部使用
 
+```
+function add(num1, num2)
+{
+  rtn = num1 + num2;
+  return rtn; 
+}
+```
