@@ -11,5 +11,5 @@
 * [06-循环](06xun-huan.md)
 * [07-函数](07han-shu.md)
 * [08-对象](08dui-xiang.md)
-* 10-作用域
+* [10-作用域](10zuo-yong-yu.md)
 
