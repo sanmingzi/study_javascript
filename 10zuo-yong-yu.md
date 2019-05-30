@@ -21,4 +21,20 @@ function test_func()
 ```
 
 ```
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+  function my_alert()
+  {
+    str = "hello";
+    alert(str);
+  }
+  my_alert(); // 调用函数后，函数内部没有声明的变量自动成为了全局变量
+  alert(str); // str成为了全局变量，可以使用
+</script>
+
+</body>
+</html>
 ```
