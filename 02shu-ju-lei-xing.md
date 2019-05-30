@@ -14,4 +14,10 @@ var cars=["Saab","Volvo","BMW"];
 
 ## map
 
+```
+var person={firstname:"John", lastname:"Doe", id:5566};
+name=person.lastname;
+name=person["lastname"];
+```
+
 ## 自定义数据类型
