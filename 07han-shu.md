@@ -48,5 +48,4 @@ function add(var1, var2)
 
 </body>
 </html>
-
 ```
