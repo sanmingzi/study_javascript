@@ -8,6 +8,8 @@
 
 ## 数组
 
+var cars=["Saab","Volvo","BMW"];
+
 ## map
 
 ## 自定义数据类型
