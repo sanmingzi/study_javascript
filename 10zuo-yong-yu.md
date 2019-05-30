@@ -8,7 +8,7 @@
 // 函数外部不能使用变量rtn
 function add(num1, num2)
 {
-  rtn = num1 + num2;
+  var rtn = num1 + num2;
   return rtn; 
 }
 ```
