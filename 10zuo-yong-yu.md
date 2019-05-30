@@ -12,3 +12,11 @@ function add(num1, num2)
   return rtn; 
 }
 ```
+
+```
+var str = "hello";
+function test_func()
+{
+  console.log(str);
+}
+```
