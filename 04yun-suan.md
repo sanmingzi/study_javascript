@@ -46,7 +46,8 @@ var num = 1.1 | 0
 - 按位非 ~
 
 ```
-
+var num = 1
+var num1 = ~num
 ```
 
 
