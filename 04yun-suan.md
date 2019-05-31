@@ -63,6 +63,7 @@ var num1 = ~num
 3 << 1 // 6
 3 << 2 // 12
 
+// 计算2的n次方
 function power(n) {
   return 1 << n;
 }
