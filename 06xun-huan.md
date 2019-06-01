@@ -34,11 +34,13 @@ var nums = [];
 nums[0] = 0;
 nums[2] = 2;
 nums[5] = 5;
+
+// for循环没有跳过数组中的undefined元素
 for(var i = 0; i < nums.length; i++) {
   console.log(i + ": " + nums[i]);
 }
 
-// for/in会跳过数组中的undefine元素
+// for/in会跳过数组中的undefined元素
 
 for(index in nums) {
   console.log(index + ": " + nums[index]);
