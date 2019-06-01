@@ -34,7 +34,7 @@ var nums = [];
 nums[0] = 0;
 nums[2] = 2;
 nums[5] = 5;
-for(var i = 0; i <= nums.length; i++) {
+for(var i = 0; i < nums.length; i++) {
   console.log(i + ": " + nums[i]);
 }
 ```
