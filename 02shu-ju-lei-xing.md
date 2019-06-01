@@ -23,4 +23,5 @@ cars[3] = "TEST";
 
 ```
 var person = {name1: "a", name2: "b"};
+console.log(person.name1);
 ```
