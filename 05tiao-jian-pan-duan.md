@@ -44,8 +44,15 @@ switch(d) {
   case 0:
     console.log("今天是星期日");
   break;
+  case 1:
+  case 2:
+  case 3:
+  case 4:
+  case 5:
+    console.log("今天不是周末")
+  break;
   default:
-    console.log("今天不是周末");
+    console.log("真是个奇怪的日子呀");
   break; 
 }
 ```
