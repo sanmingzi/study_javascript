@@ -1,4 +1,4 @@
-# Javascript学习笔记
+# Summary
 
 ## 简介
 
@@ -24,5 +24,7 @@
 * [JS对象与JSON](jin-jie-pian/jsdui-xiang-yu-json.md)
 * [this关键字](jin-jie-pian/thisguan-jian-zi.md)
 * [void关键字](jin-jie-pian/voidguan-jian-zi.md)
+* [函数](jin-jie-pian/han-shu.md)
 
 ## 高级篇
+
