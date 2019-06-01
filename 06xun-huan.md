@@ -35,7 +35,7 @@ function sum(begin, end) {
   do {
     rtn += begin;
     begin++;
-  } 
+  } while(begin <= end)
   return rtn;
 }
 ```
