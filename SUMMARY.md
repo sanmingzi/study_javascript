@@ -24,4 +24,3 @@
 * [JS对象与JSON](jin-jie-pian/jsdui-xiang-yu-json.md)
 * [this关键字](jin-jie-pian/thisguan-jian-zi.md)
 * [void关键字](jin-jie-pian/voidguan-jian-zi.md)
-* 
