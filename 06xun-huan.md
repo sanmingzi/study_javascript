@@ -37,6 +37,10 @@ nums[5] = 5;
 for(var i = 0; i < nums.length; i++) {
   console.log(i + ": " + nums[i]);
 }
+
+for(x in nums) {
+  console.log(x);
+}
 ```
 
 ## while循环
