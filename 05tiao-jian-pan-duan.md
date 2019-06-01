@@ -41,7 +41,7 @@ switch(d) {
   case 6:
     console.log("今天是星期六");
   break;
-  case 0: 
+  case 0:
     console.log("今天是星期日");
   break;
   default:
