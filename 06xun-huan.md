@@ -32,7 +32,10 @@ function sum(begin, end) {
 function sum(begin, end) {
   var rtn = 0;
   if(begin > end) return 0;
-  
+  do {
+    rtn += begin;
+    begin++;
+  } 
   return rtn;
 }
 ```
