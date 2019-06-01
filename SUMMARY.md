@@ -1,4 +1,6 @@
-# Javascript学习笔记 
+# Javascript学习笔记
+
+## 简介
 
 * [Introduction](README.md)
 * [00-目录](mu-lu.md)
