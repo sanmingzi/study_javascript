@@ -18,12 +18,12 @@
 
 ## 进阶篇
 
-* 类型转换
-* 正则表达式
-* 异常与调试
+* [类型转换](jin-jie-pian/lei-xing-zhuan-huan.md)
+* [正则表达式](jin-jie-pian/zheng-ze-biao-da-shi.md)
+* [异常与调试](jin-jie-pian/yi-chang-yu-diao-shi.md)
 * [JS对象与JSON](jin-jie-pian/jsdui-xiang-yu-json.md)
-* this关键字
-* void关键字
+* [this关键字](jin-jie-pian/thisguan-jian-zi.md)
+* [void关键字](jin-jie-pian/voidguan-jian-zi.md)
 
 ## 高级篇
 
