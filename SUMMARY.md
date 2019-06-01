@@ -18,5 +18,12 @@
 
 ## 进阶篇
 
+* 类型转换
+* 正则表达式
+* 异常与调试
+* [JS对象与JSON](jin-jie-pian/jsdui-xiang-yu-json.md)
+* this关键字
+* void关键字
+
 ## 高级篇
 
