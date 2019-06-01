@@ -38,6 +38,7 @@ for(var i = 0; i < nums.length; i++) {
   console.log(i + ": " + nums[i]);
 }
 
+// for/in会跳过数组中的undefine元素
 for(index in nums) {
   console.log(index + ": " + nums[index]);
 }
