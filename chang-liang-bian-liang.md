@@ -6,4 +6,5 @@
 
 ```
 var name = "sanmingiz";
+var person = {name1: "a", name2: "b"};
 ```
