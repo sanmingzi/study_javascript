@@ -20,6 +20,11 @@ var nums = [0, 1, 2, 3];
 for(x in nums) {
   console.log(x);
 }
+
+var person = {name1: 'a', name2: 'b'};
+for(x in person) {
+  console.log(x + person[x]);
+}
 ```
 
 ## while循环
