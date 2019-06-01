@@ -23,5 +23,15 @@ condition ? value1 : value2;
 
 ## if...else
 
+```
+if(condition1) {
+
+}else if(condition2) {
+
+}else {
+
+}
+```
+
 ## switch
 
