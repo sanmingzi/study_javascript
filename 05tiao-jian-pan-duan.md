@@ -37,5 +37,11 @@ if(condition1) {
 
 ```
 var d = new Date().getDay();
+switch(d) {
+  case 6: console.log("今天是星期六");
+  case 0: console.log("今天是星期日");
+  break;
+  
+}
 ```
 
