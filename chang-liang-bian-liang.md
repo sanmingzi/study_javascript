@@ -9,4 +9,5 @@ var name = "sanmingiz";
 var person = {name1: "a", name2: "b"};
 var nums = [0, 1, 2];
 nums[3] = 3;
+console.log(nums);
 ```
