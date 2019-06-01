@@ -39,7 +39,7 @@ for(var i = 0; i < nums.length; i++) {
 }
 
 for(index in nums) {
-  console.log(nums[index]);
+  console.log(index + ": " + nums[index]);
 }
 ```
 
