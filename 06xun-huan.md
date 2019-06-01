@@ -41,7 +41,6 @@ for(var i = 0; i < nums.length; i++) {
 }
 
 // for/in会跳过数组中的undefined元素
-
 for(index in nums) {
   console.log(index + ": " + nums[index]);
 }
