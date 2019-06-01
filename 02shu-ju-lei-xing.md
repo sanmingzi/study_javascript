@@ -15,7 +15,7 @@ var length = name.length;
 ## 数组
 
 ```
-var cars=["Saab","Volvo","BMW"];
+var cars = ["Saab","Volvo","BMW"];
 cars[3] = "TEST";
 ```
 
