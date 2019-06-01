@@ -35,3 +35,7 @@ if(condition1) {
 
 ## switch
 
+```
+var d = new Date().getDay();
+```
+
