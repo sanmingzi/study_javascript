@@ -18,7 +18,3 @@ var length = name.length;
 var cars = ["Saab","Volvo","BMW"];
 cars[3] = "TEST";
 ```
-
-
-
-## 自定义数据类型
