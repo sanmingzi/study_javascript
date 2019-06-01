@@ -23,7 +23,7 @@ for(x in nums) {
 
 var person = {name1: 'a', name2: 'b'};
 for(x in person) {
-  console.log(x + ":" + person[x]);
+  console.log(x + ": " + person[x]);
 }
 ```
 
