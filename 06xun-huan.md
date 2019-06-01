@@ -10,7 +10,7 @@ function sum(begin, end) {
   }
   return rtn;
 }
-
+console.log(sum(1, 10));
 ```
 
 ## while循环
