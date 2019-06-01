@@ -38,10 +38,15 @@ if(condition1) {
 ```
 var d = new Date().getDay();
 switch(d) {
-  case 6: console.log("今天是星期六");
-  case 0: console.log("今天是星期日");
+  case 6:
+    console.log("今天是星期六");
   break;
-  
+  case 0: 
+    console.log("今天是星期日");
+  break;
+  default:
+    console.log("今天不是周末");
+  break; 
 }
 ```
 
