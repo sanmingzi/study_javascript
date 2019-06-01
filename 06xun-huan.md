@@ -13,6 +13,15 @@ function sum(begin, end) {
 console.log(sum(1, 10));
 ```
 
+## for/in循环
+
+```
+var nums = [0, 1, 2, 3];
+for(x in nums) {
+  console.log(x);
+}
+```
+
 ## while循环
 
 ```
