@@ -18,3 +18,10 @@ var length = name.length;
 var cars = ["Saab","Volvo","BMW"];
 cars[3] = "TEST";
 ```
+
+## 对象
+
+```
+var person = {name1: "a", name2: "b"};
+
+```
