@@ -23,5 +23,4 @@ cars[3] = "TEST";
 
 ```
 var person = {name1: "a", name2: "b"};
-
 ```
