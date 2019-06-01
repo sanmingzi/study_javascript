@@ -79,5 +79,6 @@ console.log(sum(10, 9));
 ## break/continue
 
 ```
-break会
+break用于跳出循环
+continue用于跳出循环中的当前迭代，进入下一个迭代
 ```
