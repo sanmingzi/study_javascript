@@ -20,11 +20,14 @@
 
 * [类型转换](jin-jie-pian/lei-xing-zhuan-huan.md)
 * [正则表达式](jin-jie-pian/zheng-ze-biao-da-shi.md)
-* [异常与调试](jin-jie-pian/yi-chang-yu-diao-shi.md)
 * [JS对象与JSON](jin-jie-pian/jsdui-xiang-yu-json.md)
 * [this关键字](jin-jie-pian/thisguan-jian-zi.md)
 * [void关键字](jin-jie-pian/voidguan-jian-zi.md)
-* [函数](jin-jie-pian/han-shu.md)
+* 匿名函数
+* 线程与进程
+* 同步与异步
+* [异常与调试](jin-jie-pian/yi-chang-yu-diao-shi.md)
+* 浅拷贝与深拷贝
 
 ## 高级篇
 
