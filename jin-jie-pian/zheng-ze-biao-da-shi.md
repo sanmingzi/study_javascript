@@ -38,3 +38,11 @@ console.log(myRe.lastIndex); // 5
 
 当正则表达式中使用括号时，将导致相应的子匹配被记住。可以使用数组元素[1]..[n]来回调括号中匹配的子串。
 
+- demo
+
+```javascript
+var re = /(\w+)\s(\w+)\s(\w+)/;
+var str = "Mike John Smith";
+var newstr = str.replace(re, "$3 $2 $1");
+console.log(newstr);
+```
