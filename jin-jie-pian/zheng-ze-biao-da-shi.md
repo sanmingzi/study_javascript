@@ -49,3 +49,10 @@ console.log(newstr); // Smith John Mike
 
 ## 正则表达式标志
 
+标志 | 描述
+---- | ----
+g | 全局搜索
+i | 不区分大小写
+m | 多行搜索
+y | TODO
+
