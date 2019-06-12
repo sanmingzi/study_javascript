@@ -58,5 +58,5 @@ y | TODO
 
 ```
 var re = /pattern/flags;
-var re = new RegExp(pattern, flags);
+var re = new RegExp("pattern", "flags");
 ```
