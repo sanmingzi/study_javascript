@@ -60,3 +60,15 @@ y | TODO
 var re = /pattern/flags;
 var re = new RegExp("pattern", "flags");
 ```
+
+## 例子
+
+- 改变字符串的顺序
+
+```javascript
+var names = "Harry Trump ;Fred Barney; Helen Rigby ; Bill Abel ; Chris Hand ";
+var nameList = names.split(/\s*;\s*/);
+for(i = 0; i < nameList.length; i++) {
+    console.log(nameList[i].replace(/(\w+)\s(\w+)/, "$2 $1"));
+}
+```
