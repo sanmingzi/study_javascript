@@ -31,3 +31,6 @@ console.log(myArray[1]); // bb
 console.log(myArray.index); // 1
 console.log(myRe.lastIndex); // 5
 ```
+
+## 使用括号的子字符串匹配
+
