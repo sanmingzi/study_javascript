@@ -10,4 +10,5 @@ exec | 在字符串中执行查找匹配的RegExp方法，返回一个数组（�
 test | 在字符串中测试是否匹配的RegExp方法，返回true/false
 match | 在字符串中执行查找匹配的String方法，类似exec
 search | 在字符串中测试是否匹配的String方法，返回匹配到的位置索引，失败返回-1
-
+replace | 在字符串中执行查找匹配的String方法，并且替换掉匹配的子字符串
+split | 使用正则表达式或者固定字符分隔一个字符串，并且将结果存到数组中的String方法
