@@ -46,3 +46,6 @@ var str = "Mike John Smith";
 var newstr = str.replace(re, "$3 $2 $1");
 console.log(newstr); // Smith John Mike
 ```
+
+## 正则表达式标志
+
