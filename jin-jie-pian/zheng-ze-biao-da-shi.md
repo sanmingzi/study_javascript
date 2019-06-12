@@ -56,3 +56,7 @@ i | 不区分大小写
 m | 多行搜索
 y | TODO
 
+```
+var re = /pattern/flags
+var re = new RegExp(pattern, flags)
+```
