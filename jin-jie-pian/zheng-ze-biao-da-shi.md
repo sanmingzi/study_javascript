@@ -26,8 +26,8 @@ var myRe = new RegExp("d(b+)d", "g");
 var myArray = myRe.exec("cdbbdbsbz");
 
 console.log(myArray);
-console.log(myArray[0]);
-console.log(myArray[1]);
-console.log(myArray.index);
-console.log(myRe.lastIndex);
+console.log(myArray[0]); // dbbd
+console.log(myArray[1]); // bb
+console.log(myArray.index); // 1
+console.log(myRe.lastIndex); // 5
 ```
