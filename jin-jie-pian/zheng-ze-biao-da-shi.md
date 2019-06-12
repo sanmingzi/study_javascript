@@ -44,5 +44,5 @@ console.log(myRe.lastIndex); // 5
 var re = /(\w+)\s(\w+)\s(\w+)/;
 var str = "Mike John Smith";
 var newstr = str.replace(re, "$3 $2 $1");
-console.log(newstr);
+console.log(newstr); // Smith John Mike
 ```
