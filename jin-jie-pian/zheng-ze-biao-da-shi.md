@@ -12,3 +12,22 @@ match | 在字符串中执行查找匹配的String方法，类似exec
 search | 在字符串中测试是否匹配的String方法，返回匹配到的位置索引，失败返回-1，类似test
 replace | 在字符串中执行查找匹配的String方法，并且替换掉匹配的子字符串
 split | 使用正则表达式或者固定字符分隔一个字符串，并且将结果存到数组中的String方法
+
+```javascript
+// 方法1
+var myRe = /d(b+)d/g;
+var myArray = myRe.exec("cdbbdbsbz");
+
+// 方法2
+var myArray = /d(b+)d/g.exec("cdbbdbsbz");
+
+// 方法3
+var myRe = new RegExp("d(b+)d", "g");
+var myArray = myRe.exec("cdbbdbsbz");
+
+console.log(myArray);
+console.log(myArray[0]);
+console.log(myArray[1]);
+console.log(myArray.index);
+console.log(myRe.lastIndex);
+```
