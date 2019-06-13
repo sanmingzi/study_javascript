@@ -91,3 +91,5 @@ console.log(phone.match(re));
 phone = "(000).000.0000"
 console.log(phone.match(re));
 ```
+
+上面这个例子中，第一部分是非捕获括号(?:)，必须包含3个数字，可以带或者不带小括号。
