@@ -88,5 +88,4 @@ var phone = "000-000-0000"
 console.log(phone.match(re));
 phone = "000\/000\/0000";
 console.log(phone.match(re));
-
 ```
