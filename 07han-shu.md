@@ -16,7 +16,7 @@ function alert_hello()
 ```
 function test_func(var1, var2)
 {
-// 可之行代码
+// 可执行代码
 }
 ```
 

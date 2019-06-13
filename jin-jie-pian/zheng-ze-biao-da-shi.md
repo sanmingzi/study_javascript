@@ -79,3 +79,6 @@ for(i = 0; i < nameList.length; i++) {
   */
 }
 ```
+
+- 特殊字符的检测
+

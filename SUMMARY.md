@@ -23,7 +23,7 @@
 * [JS对象与JSON](jin-jie-pian/jsdui-xiang-yu-json.md)
 * [this关键字](jin-jie-pian/thisguan-jian-zi.md)
 * [void关键字](jin-jie-pian/voidguan-jian-zi.md)
-* 匿名函数
+* [匿名函数](jin-jie-pian/ni-ming-han-shu.md)
 * [线程与进程](jin-jie-pian/xian-cheng-yu-jin-cheng.md)
 * [同步与异步](jin-jie-pian/tong-bu-yu-yi-bu.md)
 * [异常与调试](jin-jie-pian/yi-chang-yu-diao-shi.md)
