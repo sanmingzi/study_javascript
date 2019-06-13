@@ -84,4 +84,6 @@ for(i = 0; i < nameList.length; i++) {
 
 ```javascript
 var re = /(?:\d{3}|\(\d{3}\))([-\/\.])\d{3}\1\d{4}/;
+var phone = "000-00010000"
+phone.
 ```
