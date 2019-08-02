@@ -111,3 +111,44 @@ console.log("after set prototype: " + sally.age); // => 18
 上述代码说明，在继承的时候，如果只是在构造函数中调用父类的构造函数，那么只能继承父类构造函数中指定的属性。
 只有显示的设置prototype之后，才能确保动态的继承，也就是说父类后续添加的属性也都能继承。
 
+## 本地值和继承值
+
+```javascript
+function Employee () {
+  this.name = "";
+  this.dept = "general";
+}
+
+function WorkerBee () {
+  this.projects = [];
+}
+WorkerBee.prototype = new Employee;
+
+var amy = new WorkerBee;
+var emp = new Employee;
+console.log("name of amy is: " + amy.name);
+console.log("name of emp is: " + emp.name);
+
+Employee.prototype.name = "Unknown"
+console.log("name of amy is: " + amy.name);
+console.log("name of emp is: " + emp.name);
+```
+
+输出
+
+```
+name of amy is: 
+name of emp is: 
+name of amy is:
+name of emp is:
+```
+
+当我们创建Employee对象的任意实例时，该实例的name属性将获得一个本地值（空字符串）。当创建一个新的Employee对象作为WorkerBee的原型时，WorkerBee.prototype的name属性将具有一个本地值。当Javascript查找amy对象的name属性时，将找到WorkerBee.prototype中的本地值，就不会再向上找Employee.prototype了。
+
+## 原型链查找
+
+JavaScript的属性查找机制将首先在对象自身的属性中查找，如果指定的属性名称没有找到，将在对象的特殊属性```_proto_```中查找。
+特殊的属性```_proto_```是在对象创建的时候设置的，设置为构造器的```prototype```属性的值。所以表达式```new Foo()```将创建一个新对象，其```_proto_ = Foo.prototype```。
+
+
+## 构造器中的全局信息
