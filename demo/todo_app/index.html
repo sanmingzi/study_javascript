@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="prototype.js"></script>
+    <script>
+      function focusInput() {
+        var todo_input = $("todo-text")
+        todo_input.value = ""
+        todo_input.select()
+        todo_input.focus()
+      }
+
+      function addTodo() {
+        var input = $('todo-text').value
+        if(input == '') return
+        var data = "add=" + encodeURIComponent(input)
+        new Ajax.Request("data.rb", {postBody: data,
+          onComplete: function() { updateTodo() }
+        })
+
+      }
+
+      function checkTodo(id) {
+        var data = "update=" + encodeURIComponent(id)
+        new Ajax.Request("data.rb", {postBody: data,
+          onComplete: function() { updateTodo() }
+        })
+      }
+
+      function updateTodo() {
+        var todos = new Array();
+        new Ajax.Request("data.rb", {
+          onComplete: function(req) {
+            var lines = req.responseText.split("\n")
+            lines.each(function(line) {
+              if(line.match(/^.*?:.*?:.*/) != null) {
+                todos.push(line.split(":"))
+              }
+            })
+            render_list(todos)
+            focusInput()
+          }
+        })
+      }
+
+      function render_list(todos) {
+        var todoList = "<table>"
+        var doneList = "<table>"
+        todos.each(function(todo) {
+          var id = todo[0]
+          var value = todo[1].escapeHTML()
+          var done = todo[2] == '0' ? false : true
+          var item = ""
+          item += "<tr><td>"
+          // "<input type='checkbox' onclick='checkTodo(i)' checked>"
+          item += "<input type='checkbox' onclick='checkTodo(" + id + ")'"
+          item += (done ? "checked" : "") + ">"
+          item += "</td>"
+          item += "<td><div>" + value + "</div></td>"
+          item += "</tr>"
+          if(done) {
+            doneList += item
+          } else {
+            todoList += item
+          }
+        })
+        todoList += "</table>"
+        doneList += "</table>"
+        $("todo-list").innerHTML = todoList
+        $("done-list").innerHTML = doneList
+      }
+    </script>
+  </head>
+  <body onload="updateTodo()">
+    <input type="text" id="todo-text">
+    <input type="button" value="Add" onclick="addTodo()">
+    <div>TODO LIST</div>
+    <div id="todo-list"></div>
+    <div>DONE LIST</div>
+    <div id="done-list"></div>
+  </body>
+</html>
